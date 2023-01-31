@@ -1,0 +1,19 @@
+{
+    "name": "user/google-mail",
+    "description": "google mail system with composer",
+    "license": "no",
+    "autoload": {
+        "psr-4": {
+            "User\\GoogleMail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shohan-joarder",
+            "email": "jshohan887@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
